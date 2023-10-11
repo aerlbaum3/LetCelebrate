@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="utf-8" />
+    <link href="letscelebrateform.css" rel="stylesheet" />
+    <link href="lc_about.css" rel="stylesheet"/>
+
+</head>
+
+<body>
+    <header>
+        <img src="letscelebrate.png" alt="Lets Celebrate"/>
+     <nav>
+         <ul>
+             <li><a href="Homepage.html">Home Page</a></li>
+             <li><a href="lcabout.us.HTML.html">About Us</a></li>
+             <li><a href="letscelebrateform.html">Gift Form</a></li>
+             <li><a href="table.html">Party Ideas</a></li>
+        </ul>
+     </nav>
+    </header>
+
+<h1>Birthday Presents</h1>
+<p>Lets Celebrate! Everyone loves birthday presents. Order yours today free!</p>
+
+<form action="http://www.example.com/redball/survey" method="post" >
+    <feildset>
+
+        <label for="name">Name*</label>
+             <input name="custName" id="name" type="text" placeholder="first and last name" required />
+     <label>Gender:</label>
+
+                  <label for="male">Male</label>
+                  <input name="gender" id="male" value="yes" type="radio" />
+                  <label for="female">Female</label>
+                  <input name="gender" id="female" value="no" type="radio" />
+
+    <label for="age">Age</label>
+    <input name="agenumber" id="age" type="number" value="1" step="1" min="0" max="120" />
+        <label for="bday">Your Birthday!</label>
+               <input name="birthday" id="bday" type="date"/>
+   <div class="formRow">
+    <label for="street">Street address</label>
+     <input name="custStreet" id="street" type="text" />
+
+
+     <label for="city">City</label>
+     <input name="custCity" id="city" type="text" />
+
+
+     <label for="state">State</label>
+     <input name="custState" id="state" type="text" />
+
+
+        <label for="zip">Postal Code</label>
+            <input name="custZip" id="zip" type="text" placeholder="nnnnn(-nnnn)" maxlength="10" size="10" />
+        </div>
+         <div class="formRow">
+            <label for="phone">Phone Number</label>
+            <input name="custPhone" id="phone" type="tel" placeholder="(nnn)nnn-nnnn" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[|s-]?\d{4}$" />
+
+        <label for="mail">E-mail*</label>
+            <input name="custEmail" id="mail" type="email" size="40" required  />
+         </div>
+   <!-- <label for="request">Tell us your dream birthday present</label>
+            <textarea name="presentrequest" id="request"></textarea>-->
+        <div class="formRow" >
+     <label for="interest">What do you enjoy?</label>
+               <select name="interesttype" id="interest">
+                  <option value="order1">Food</option>
+                  <option value="order2">Exercise</option>
+                  <option value="order3">Games</option>
+                  <option value="order4">Technology</option>
+                   <option value="order5">Clothes</option>
+                   <option value="order6">Reading</option>
+                   <option value="order7">Arts and Crafts</option>
+                   <option value="order8">Building</option>
+                   <option value="none" selected></option>
+               </select>
+
+
+    <label for="location">Where are you most likely found?</label>
+               <select name="locationplace" id="location">
+                  <option value="order1">On the couch</option>
+                  <option value="order2">Library</option>
+                  <option value="order3">Stadium</option>
+                  <option value="order4">Shopping</option>
+                   <option value="order5">State Park</option>
+                   <option value="order6">Yeshiva</option>
+                   <option value="order7">Chuck E. Cheese</option>
+                   <option value="order8">Walking your dog</option>
+                   <option value="none" selected></option>
+               </select>
+        </div>
+    <div class="formRow">
+        <input type="submit" value="Send my present">
+        </div>
+    </feildset>
+</form>
+</body>
