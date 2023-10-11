@@ -1,0 +1,74 @@
+
+h1 {
+    font-family: "Comic Sans MS";
+    text-align: center;
+    color: lightyellow;
+    font-size: xxx-large;
+}
+h2 {
+    font-family: "Comic Sans MS";
+    text-align: center;
+    color: lightyellow;
+    font-size: xxx-large;
+
+}
+title {
+    color:lightblue;
+    font-family: "Comic Sans MS";
+}
+table{
+    background-color: lightyellow;
+    border-style: groove;
+    border: 10px outset lightblue;
+    position: center;
+    table-border-color-dark: #0d6efd;
+    font-size: large;
+    margin: 25px 200px;
+
+}
+
+table, th, td, tr {
+  border: 1px solid darkblue;
+}
+table, th#age{
+    column-width: 100px;
+}
+
+p {
+    text-align: center;
+    color: lightblue;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+}
+
+body {
+    background-color: pink;
+}
+
+
+form {
+
+    background-color: lightyellow;
+    border-radius: 20px;
+    flex: 1 1 300px;
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 30px 100px;
+    display: flex;
+    flex-flow: row wrap;
+}
+input[type=submit] {
+  width: 40%;
+    height: 20%;
+  background-color: lightblue;
+color: white;
+
+
+    border: none;
+
+ position: center;
+
+
+
+}
